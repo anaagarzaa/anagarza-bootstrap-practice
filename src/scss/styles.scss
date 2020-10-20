@@ -6,6 +6,37 @@
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
 
+.navbar {
+   a:hover {
+       text-decoration: underline;
+   }
+}
+.active {
+    font-weight: bold;
+}
+
+.jumbotron {
+   background-image: url(../img/pirate-ship.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover; 
+   text-align: center;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+p {
+    font-family: 'Lato', sans-serif;  
+}
+
+.footer {
+    background-color: bisque;
+    color: gray;
+    text-align: center;
+}
+
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
